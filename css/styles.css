@@ -12,8 +12,17 @@ body {
     color: var(--main-txt-cl);
     background-color: var(--bgd-color);
 }
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+
+}
+img {
+    display: block;
+}
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .link {
     color: inherit;
@@ -34,14 +43,31 @@ body {
 .logo-text {
     color: var(--logo-second-cl);
 }
+.header-container {
+    display: flex;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .header-nav-link {
     font-weight: 500;
     color: var(--logo-second-cl);
-
+}
+.header-nav-list {
+    display: flex;
+    gap: 40px;
 }
 .contacts-address {
     font-style: normal;
     color: var(--main-txt-cl);
+    margin-left: auto;
+}
+.contacts-list {
+    display: flex;
+}
+.contacts-link {
+    margin-left: 40px;
 }
 .visually-hidden {
     position: absolute;
@@ -66,6 +92,13 @@ body {
 .hero {
     background-color: var(--logo-second-cl);
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 2px solid red;
+    outline-offset: -2px ;
+}
 .title {
     font-size: 56px;
     line-height: 1.07;
@@ -74,6 +107,10 @@ body {
     color: #FFFFFF;
 }
 .btn {
+    min-width: 169px;
+    min-height: 56px;
+    padding: 16px 32px;
+    border-radius: 4px;
     background-color: #4D5AE5;
     font-family: var(--primary-font);
     font-weight: 500;
