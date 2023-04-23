@@ -153,6 +153,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--logo-second-cl);
     margin-bottom: 8px;
+}
+.subtitle-team {
     text-align: center;
 }
 .uppertitle {
@@ -201,6 +203,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 1px solid #e7e9fc;
 }
 .footer {
     background-color: var(--logo-second-cl);
