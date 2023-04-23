@@ -217,6 +217,9 @@ img {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--logo-first-cl);
@@ -226,6 +229,7 @@ img {
 .btn-prtf:hover,
 .btn-prtf:focus {
     background-color: #404BBF;
+    border: 1px solid transparent;
     color: #fff;
 }
 .footer-desc {
@@ -251,4 +255,10 @@ img {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+}
+.card-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
