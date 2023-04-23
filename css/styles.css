@@ -203,7 +203,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #e7e9fc;
 }
 .footer {
     background-color: var(--logo-second-cl);
@@ -264,4 +263,8 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+.prtf-card {
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
