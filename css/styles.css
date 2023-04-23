@@ -141,7 +141,6 @@ img {
     display: block;
     margin: 0 auto;
     border: none;
-    margin-bottom: 70px;
 }
 .btn:hover,
 .btn:focus {
@@ -242,4 +241,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
+}
+.filters-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.filters-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
