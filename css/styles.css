@@ -6,7 +6,7 @@
     --logo-second-cl:#2E2F42;
     --accent-txt-cl:#404bbf;
     --btn-bgd: #F4F4FD;
-    --indent: 30px;
+    --indent: 24px;
     --items: 3;
 }
 body {
@@ -43,9 +43,13 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-first-cl);
+    margin-right: 76px;
 }
 .logo-text {
     color: var(--logo-second-cl);
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
     display: flex;
@@ -62,7 +66,6 @@ img {
 .header-nav-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 .contacts-address {
     font-style: normal;
@@ -72,9 +75,9 @@ img {
 .contacts-list {
     display: flex;
     padding: 24px 0;
+    gap: 40px;
 }
 .contacts-link {
-    margin-left: 40px;
     padding: 24px 0;
 }
 .visually-hidden {
@@ -97,8 +100,9 @@ img {
 .header-nav-link:focus {
     color: var(--accent-txt-cl);
 }
-.hero {
+.hero-section {
     background-color: var(--logo-second-cl);
+    padding: 188px 0;
 }
 .section {
     padding-bottom: 120px;
@@ -114,15 +118,14 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 180px;
     padding-bottom: 48px;
 }
 .btn {
     min-width: 169px;
-    min-height: 56px;
+    height: 56px;
     padding: 16px 32px;
     border-radius: 4px;
     background-color: #4D5AE5;
@@ -137,6 +140,8 @@ img {
 .btn-hero {
     display: block;
     margin: 0 auto;
+    border: none;
+    margin-bottom: 70px;
 }
 .btn:hover,
 .btn:focus {
@@ -149,6 +154,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--logo-second-cl);
     margin-bottom: 8px;
+    text-align: center;
 }
 .uppertitle {
     font-size: 36px;
@@ -179,6 +185,7 @@ img {
 }
 .team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .team-list {
     --items: 4;
@@ -187,20 +194,22 @@ img {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
 }
+.desc-team {
+    text-align: center;
+}
 .container-name {
     padding: 32px 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .footer {
     background-color: var(--logo-second-cl);
+    padding: 100px 0;
 }
 .logo-ftr {
-    display: block;
-    padding-top: 100px;
-    padding-bottom: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-footer {
     color: #f4f4fd;
